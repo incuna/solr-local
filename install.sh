@@ -1,4 +1,5 @@
 # install solr
+/usr/local/bin/brew switch solr 3.5.0
 /usr/local/bin/brew install solr
 echo "Brewed solr"
 
