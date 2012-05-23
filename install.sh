@@ -5,7 +5,7 @@ echo "Brewed solr"
 export SOLR_CONF=`brew --prefix solr`/libexec/example/solr/
 export SOLR_SCHEMA=`brew --prefix solr`/libexec/example/solr/conf/schema.xml
 
-alias solr=`/usr/local/bin/solr $SOLR_CONF`
+alias solr="/usr/local/bin/solr $SOLR_CONF"
 
 echo
 echo "Add the following to your bash_profile or equivalent:"
