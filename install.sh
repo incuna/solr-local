@@ -14,7 +14,7 @@ echo
 echo "export SOLR_CONF=\`brew --prefix solr\`/libexec/example/solr/"
 echo "export SOLR_SCHEMA=\`brew --prefix solr\`/libexec/example/solr/conf/schema.xml"
 echo
-echo "alias solr=\`solr \$SOLR_CONF\`"
+echo "alias solr='solr \$SOLR_CONF'"
 echo
 echo "--------------------------------------------------------------------------------"
 echo
